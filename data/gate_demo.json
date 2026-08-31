@@ -1,0 +1,251 @@
+{
+ "label": "DEMO -- synthetic data, not Schedule 6",
+ "fleetColors": {
+  "MAX9": "#c96a6a",
+  "CRJ900": "#7d93b2",
+  "CRJ700": "#8fb996",
+  "CRJ200": "#dcbd6e"
+ },
+ "cities": [
+  {
+   "code": "PHF",
+   "name": "Newport News VA",
+   "isHub": true,
+   "isFocusCity": false,
+   "nGates": 16,
+   "nStands": 8,
+   "peakUsed": 17,
+   "claims": [
+    {
+     "start": 530,
+     "end": 1740,
+     "label": "701 -> 701",
+     "fleet": "MAX9",
+     "kind": "ron",
+     "row": 1,
+     "rowType": "gate"
+    },
+    {
+     "start": 640,
+     "end": 1940,
+     "label": "320 -> 320",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 2,
+     "rowType": "gate"
+    },
+    {
+     "start": 670,
+     "end": 715,
+     "label": "340 -> 340",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 3,
+     "rowType": "gate"
+    },
+    {
+     "start": 715,
+     "end": 1920,
+     "label": "340 -> 340",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 1,
+     "rowType": "stand"
+    },
+    {
+     "start": 730,
+     "end": 2030,
+     "label": "321 -> 321",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 4,
+     "rowType": "gate"
+    },
+    {
+     "start": 740,
+     "end": 2050,
+     "label": "341 -> 341",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 5,
+     "rowType": "gate"
+    },
+    {
+     "start": 760,
+     "end": 820,
+     "label": "108",
+     "fleet": "CRJ200",
+     "kind": "turn",
+     "row": 6,
+     "rowType": "gate"
+    },
+    {
+     "start": 790,
+     "end": 2000,
+     "label": "501 -> 501",
+     "fleet": "CRJ900",
+     "kind": "ron",
+     "row": 7,
+     "rowType": "gate"
+    },
+    {
+     "start": 810,
+     "end": 2120,
+     "label": "342 -> 342",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 8,
+     "rowType": "gate"
+    },
+    {
+     "start": 820,
+     "end": 2120,
+     "label": "322 -> 322",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 6,
+     "rowType": "gate"
+    },
+    {
+     "start": 880,
+     "end": 2140,
+     "label": "101 -> 101",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 9,
+     "rowType": "gate"
+    },
+    {
+     "start": 880,
+     "end": 2190,
+     "label": "343 -> 343",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 10,
+     "rowType": "gate"
+    },
+    {
+     "start": 910,
+     "end": 2210,
+     "label": "323 -> 323",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 11,
+     "rowType": "gate"
+    },
+    {
+     "start": 950,
+     "end": 2260,
+     "label": "344 -> 344",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 12,
+     "rowType": "gate"
+    },
+    {
+     "start": 980,
+     "end": 2040,
+     "label": "108 -> 108",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 13,
+     "rowType": "gate"
+    },
+    {
+     "start": 1000,
+     "end": 2300,
+     "label": "324 -> 324",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 14,
+     "rowType": "gate"
+    },
+    {
+     "start": 1050,
+     "end": 2240,
+     "label": "301 -> 301",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 15,
+     "rowType": "gate"
+    },
+    {
+     "start": 1090,
+     "end": 2390,
+     "label": "325 -> 325",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 16,
+     "rowType": "gate"
+    },
+    {
+     "start": 1320,
+     "end": 1380,
+     "label": "705",
+     "fleet": "MAX9",
+     "kind": "originate_only",
+     "row": 3,
+     "rowType": "gate"
+    },
+    {
+     "start": 1920,
+     "end": 1980,
+     "label": "340 -> 340",
+     "fleet": "CRJ200",
+     "kind": "ron",
+     "row": 3,
+     "rowType": "gate"
+    }
+   ]
+  },
+  {
+   "code": "BHM",
+   "name": "Birmingham AL",
+   "isHub": false,
+   "isFocusCity": true,
+   "nGates": 6,
+   "nStands": 4,
+   "peakUsed": 2,
+   "claims": [
+    {
+     "start": 530,
+     "end": 1780,
+     "label": "330 -> 330",
+     "fleet": "CRJ700",
+     "kind": "ron",
+     "row": 1,
+     "rowType": "gate"
+    },
+    {
+     "start": 900,
+     "end": 2340,
+     "label": "511 -> 510",
+     "fleet": "CRJ900",
+     "kind": "ron",
+     "row": 2,
+     "rowType": "gate"
+    }
+   ]
+  },
+  {
+   "code": "ILM",
+   "name": "Wilmington NC",
+   "isHub": false,
+   "isFocusCity": false,
+   "nGates": 2,
+   "nStands": 1,
+   "peakUsed": 1,
+   "claims": [
+    {
+     "start": 760,
+     "end": 820,
+     "label": "101",
+     "fleet": "CRJ200",
+     "kind": "turn",
+     "row": 1,
+     "rowType": "gate"
+    }
+   ]
+  }
+ ]
+}
