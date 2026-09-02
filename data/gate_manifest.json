@@ -1,12 +1,12 @@
 [
-  {
-   "id": "sked6_v2_1_2",
-   "label": "Schedule 6, Version 2.1.2",
-   "file": "gate_sked6_v2_1_2.json"
-  } 
-  {
-   "id": "sked6_v2_1_1",
-   "label": "Schedule 6, Version 2.1.1",
-   "file": "gate_sked6_v2_1_1.json"
-  }
+ {
+  "id": "sked6_v2_1_2",
+  "label": "Schedule 6, Version 2.1.2",
+  "file": "gate_sked6_v2_1_2.json"
+ },
+ {
+  "id": "sked6_v2_1_1",
+  "label": "Schedule 6, Version 2.1.1",
+  "file": "gate_sked6_v2_1_1.json"
+ }
 ]
