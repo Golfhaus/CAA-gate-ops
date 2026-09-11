@@ -1,5 +1,10 @@
 [
 {
+ "id": "sked6_v2_2_4",
+ "label": "Schedule 6, Version 2.2.4",
+ "file": "gate_sked6_v2_2_4.json"
+ },
+{
  "id": "sked6_v2_2_3",
  "label": "Schedule 6, Version 2.2.3",
  "file": "gate_sked6_v2_2_3.json"
